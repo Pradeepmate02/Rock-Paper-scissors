@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.head{
+    color: #2C4533;
+    height: 5rem;
+    line-height: 5rem;
+    background-color: #9fb8dc;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+}
+.inner_container{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+.circle {
+    height: 160px;
+    width : 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle img{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.circle:hover{
+    opacity: 0.5;
+    background-color: black;
+    cursor: pointer;
+}
+.score_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+.cong{
+    background-color: green;
+    height: 3rem;
+    width: 17rem;
+    border-radius: 10px;
+    color: wheat;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3rem;
+
+}
+.cong2{
+    display: none;
+}
+
+#btn{
+    font-size: large;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #E9AFA3;
+    margin-top: 1rem;
+    font-weight: 500;
+}
